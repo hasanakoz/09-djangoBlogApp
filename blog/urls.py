@@ -9,3 +9,5 @@ router.register('category', CategoryView)
 urlpatterns = [
     path('', include(router.urls)),
 ]
+
+# urlpatterns += router.urls
